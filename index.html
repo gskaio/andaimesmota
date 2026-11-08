@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Andaimes Mota | Locação de Andaimes e Equipamentos em São Carlos</title>
+<meta name="description" content="Aluguel de andaimes, escoras, marteletes, betoneiras, vibradores, compactadores e cortadoras de piso. Atendimento ágil, entrega rápida e orçamento pelo WhatsApp.">
+<meta name="theme-color" content="#2F3285">
+<link rel="icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="img/icone-512.png">
+<meta property="og:title" content="Andaimes Mota | Locação de Equipamentos para Construção">
+<meta property="og:description" content="Andaimes, escoramentos, marteletes e betoneiras para a sua obra. Peça orçamento pelo WhatsApp.">
+<meta property="og:image" content="https://andaimesmota.com/img/icone-512.png">
+<meta property="og:url" content="https://andaimesmota.com/">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Quicksand:wght@500;600;700&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "Andaimes Mota",
+  "description": "Locação de andaimes, escoramentos, marteletes e betoneiras para construção civil.",
+  "url": "https://andaimesmota.com/",
+  "logo": "https://andaimesmota.com/img/icone-512.png",
+  "telephone": "+55-16-97401-4479",
+  "email": "contato@andaimesmota.com",
+  "foundingDate": "2008",
+  "address": {"@type": "PostalAddress", "streetAddress": "Rua Gabriel Crknovic, 30 - Vila Carmen", "addressLocality": "São Carlos", "addressRegion": "SP", "addressCountry": "BR"},
+  "areaServed": "São Carlos e região",
+  "sameAs": ["https://www.instagram.com/andaimesmota/"]
+}
+</script>
+<style>
+:root{
+  /* Cores do manual da marca */
+  --ciano:#00ADEF; --azul:#176FC0; --azul-esc:#135A9C; --azul-claro:#E6F7FD;
+  --marinho:#2F3285; --marinho-esc:#22246A; --marinho-noite:#181A4F;
+  --cinza:#5A5758; --texto:#3A3839; --suave:#5A5758;
+  --linha:#DDE3EC; --fundo:#FFFFFF; --fundo-2:#F3F6FB;
+  --zap:#25D366; --zap-esc:#1DA851;
+  --raio:10px; --max:1160px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Montserrat,system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:var(--texto);background:var(--fundo);line-height:1.6;font-size:16px;-webkit-font-smoothing:antialiased}
+img,svg{display:block;max-width:100%}
+a{color:inherit;text-decoration:none}
+h1,h2,h3{font-family:Montserrat,sans-serif;font-weight:800;line-height:1.1;color:var(--marinho);letter-spacing:-.5px}
+.wrap{max-width:var(--max);margin:0 auto;padding:0 20px}
+.eyebrow{font-family:Quicksand,Montserrat,sans-serif;font-size:1rem;font-weight:600;letter-spacing:.02em;color:var(--azul)}
+.btn{display:inline-flex;align-items:center;gap:10px;font-weight:600;border-radius:999px;padding:14px 26px;transition:transform .15s,background .15s;white-space:nowrap}
+.btn:hover{transform:translateY(-1px)}
+.btn-zap{background:var(--zap);color:#fff}
+.btn-zap:hover{background:var(--zap-esc)}
+.btn-linha{border:2px solid rgba(255,255,255,.5);color:#fff}
+.btn-linha:hover{border-color:#fff}
+.btn svg{width:20px;height:20px}
+
+/* header */
+header{position:sticky;top:0;z-index:50;background:rgba(255,255,255,.96);backdrop-filter:saturate(1.4) blur(8px);border-bottom:1px solid var(--linha)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:78px;gap:16px}
+.marca{display:flex;align-items:center;gap:10px}
+.marca img{height:46px;width:auto}
+.menu{display:flex;gap:28px;font-weight:500;font-size:.95rem}
+.menu{color:var(--marinho)}
+.menu a:hover{color:var(--ciano)}
+.nav .btn{padding:10px 18px;font-size:.92rem}
+@media (max-width:860px){.menu{display:none}}
+@media (max-width:420px){.nav .btn span{display:none}.nav .btn{padding:10px 12px}}
+
+/* hero */
+.hero{position:relative;background:linear-gradient(100deg,rgba(24,26,79,.96) 0%,rgba(36,39,110,.85) 38%,rgba(47,50,133,.15) 72%,rgba(47,50,133,0) 100%),url(img/hero-obra.webp) 60% 55%/cover;color:#fff;overflow:hidden}
+.hero::before{display:none;content:"";position:absolute;inset:0;background:
+  repeating-linear-gradient(90deg,transparent 0 118px,rgba(0,173,239,.13) 118px 122px),
+  repeating-linear-gradient(0deg,transparent 0 118px,rgba(0,173,239,.13) 118px 122px);
+  mask-image:linear-gradient(100deg,transparent 35%,#000 75%);-webkit-mask-image:linear-gradient(100deg,transparent 35%,#000 75%);opacity:.5}
+.hero .wrap{position:relative;display:grid;grid-template-columns:minmax(0,640px);padding-top:110px;padding-bottom:120px}
+.hero h1{color:#fff;font-size:clamp(2.3rem,5vw,3.9rem);font-weight:800;letter-spacing:-1px}
+.hero h1 em{font-style:normal;color:var(--ciano)}
+.hero .eyebrow{color:var(--ciano)}
+.hero p.lead{font-size:1.12rem;color:#D3D6F0;margin:22px 0 34px;max-width:540px}
+.hero .acoes{display:flex;flex-wrap:wrap;gap:14px}
+@media (max-width:860px){.hero .wrap{padding-top:60px;padding-bottom:70px}.hero{background:linear-gradient(rgba(24,26,79,.9),rgba(36,39,110,.78) 60%,rgba(47,50,133,.55)),url(img/hero-obra-mob.webp) center/cover}}
+
+/* faixa */
+.faixa{background:var(--azul);color:#fff;border-bottom:4px solid var(--ciano)}
+.faixa .wrap{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;padding-top:26px;padding-bottom:26px}
+.faixa div{display:flex;gap:12px;align-items:center;font-weight:600;font-size:.98rem;line-height:1.3}
+.faixa svg{width:30px;height:30px;flex:none}
+@media (max-width:860px){.faixa .wrap{grid-template-columns:1fr 1fr}}
+@media (max-width:480px){.faixa .wrap{grid-template-columns:1fr}}
+
+/* seções */
+section{padding:96px 0}
+.cab{max-width:640px;margin-bottom:48px}
+.cab h2{font-size:clamp(1.8rem,3.6vw,2.6rem);margin-top:6px}
+.cab p{color:var(--suave);margin-top:14px;font-size:1.05rem}
+@media (max-width:600px){section{padding:64px 0}}
+
+/* equipamentos */
+.grade{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.card{background:#fff;border:1px solid var(--linha);border-radius:var(--raio);overflow:hidden;display:flex;flex-direction:column;transition:box-shadow .2s,transform .2s}
+.card:hover{box-shadow:0 14px 34px -18px rgba(22,32,42,.35);transform:translateY(-3px)}
+.card .foto{aspect-ratio:4/3;background:var(--azul-claro);display:grid;place-items:center;border-bottom:1px solid var(--linha)}
+.card .foto svg{width:58%;height:auto}
+.card .foto svg [stroke]{stroke:var(--azul)}
+.card .corpo{padding:22px;display:flex;flex-direction:column;gap:10px;flex:1}
+.card h3{font-size:1.3rem}
+.card p{color:var(--suave);font-size:.95rem;flex:1}
+.card a{font-weight:700;color:var(--azul);font-size:.95rem;display:inline-flex;gap:6px;align-items:center}
+.card a:hover{color:var(--ciano)}
+@media (max-width:1000px){.grade{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.grade{grid-template-columns:1fr}}
+
+/* como funciona */
+.cinza{background:var(--fundo-2)}
+.passos{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;counter-reset:p}
+.passo{background:#fff;border-radius:var(--raio);padding:28px 24px;border-top:4px solid var(--ciano);counter-increment:p}
+.passo::before{content:"0" counter(p);font-family:Montserrat,sans-serif;font-weight:800;font-size:2.2rem;color:var(--ciano);line-height:1}
+.passo h3{font-size:1.15rem;margin:12px 0 8px}
+.passo p{color:var(--suave);font-size:.95rem}
+@media (max-width:1000px){.passos{grid-template-columns:repeat(2,1fr)}}
+@media (max-width:520px){.passos{grid-template-columns:1fr}}
+
+/* sobre */
+.sobre .wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
+.sobre .foto-grande{aspect-ratio:5/4;border-radius:var(--raio);background:linear-gradient(140deg,var(--marinho-noite),var(--marinho));display:grid;place-items:center;overflow:hidden}
+.sobre .foto-grande img{width:46%}
+.sobre ul{list-style:none;margin-top:22px;display:grid;gap:12px}
+.sobre li{display:flex;gap:12px;align-items:flex-start}
+.sobre li svg{width:22px;height:22px;flex:none;color:var(--ciano);margin-top:2px}
+@media (max-width:860px){.sobre .wrap{grid-template-columns:1fr}}
+
+/* cta */
+.cta{background:linear-gradient(120deg,var(--marinho),var(--marinho-esc));color:#fff;padding:80px 0;text-align:center;position:relative;overflow:hidden}
+.cta h2{color:#fff;font-size:clamp(1.8rem,4vw,2.8rem)}
+.cta p{color:#D3D6F0;margin:14px auto 32px;max-width:560px;font-size:1.08rem}
+
+/* footer */
+footer{background:var(--marinho-noite);color:#B4B8DC;padding:56px 0 28px;font-size:.94rem}
+.rod{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
+footer h4{color:var(--ciano);font-family:Quicksand,sans-serif;font-size:1.05rem;font-weight:700;margin-bottom:14px}
+footer li{list-style:none;margin-bottom:8px}
+footer a:hover{color:#fff}
+.rod .marca img{height:52px}
+.copy{border-top:1px solid #2C2F75;margin-top:40px;padding-top:22px;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:.85rem}
+.pend{background:#FFF4CC;color:#7A5B00;padding:0 4px;border-radius:3px}
+@media (max-width:760px){.rod{grid-template-columns:1fr}}
+
+
+/* categorias */
+.cats{display:grid;grid-template-columns:repeat(7,1fr);gap:14px;margin-bottom:36px}
+.cat{position:relative;border:0;cursor:pointer;border-radius:18px;overflow:hidden;aspect-ratio:1/1;color:#fff;font:inherit;text-align:left;background:var(--c);isolation:isolate;transition:transform .15s,box-shadow .15s;outline-offset:3px}
+.cat img{position:absolute;inset:auto 0 0 0;width:100%;height:70%;object-fit:cover;z-index:-1;opacity:.9;mask-image:linear-gradient(to bottom,transparent,#000 45%);-webkit-mask-image:linear-gradient(to bottom,transparent,#000 45%)}
+.cat span{display:block;padding:12px 14px;font-weight:800;font-size:1rem;line-height:1.15}
+.cat small{display:block;font-family:Quicksand,sans-serif;font-weight:600;font-size:.78rem;opacity:.85}
+.cat:hover{transform:translateY(-3px)}
+.cat[aria-pressed="true"]{box-shadow:0 0 0 3px #fff,0 0 0 6px var(--c)}
+@media (max-width:1000px){.cats{grid-template-columns:repeat(4,1fr)}}
+@media (max-width:560px){.cats{grid-template-columns:repeat(3,1fr);gap:10px}.cat span{font-size:.85rem;padding:10px}}
+.card{cursor:pointer;text-align:left;font:inherit;color:inherit;padding:0}
+.card .foto{background:#fff}
+.card .foto img{width:100%;height:100%;object-fit:cover}
+.card .pre{font-family:Quicksand,sans-serif;font-weight:600;color:var(--suave);font-size:.9rem;margin-bottom:-6px}
+.card .tag{align-self:flex-start;font-size:.72rem;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--azul);background:var(--azul-claro);padding:3px 9px;border-radius:999px}
+.card .ver{font-weight:700;color:var(--azul);font-size:.95rem}
+.card:hover .ver{color:var(--ciano)}
+.card[hidden]{display:none}
+
+/* modal */
+.modal{position:fixed;inset:0;z-index:100;display:grid;place-items:center;padding:16px}
+.modal[hidden]{display:none}
+.modal-fundo{position:absolute;inset:0;background:rgba(24,26,79,.7);backdrop-filter:blur(3px)}
+.modal-caixa{position:relative;background:#fff;border-radius:20px;max-width:880px;width:100%;max-height:calc(100vh - 32px);overflow:auto;display:grid;grid-template-columns:1fr 1fr}
+.modal-foto{background:var(--fundo-2);border-radius:20px 0 0 20px;overflow:hidden;min-height:100%}
+.modal-foto img{width:100%;height:100%;object-fit:cover}
+.modal-corpo{padding:34px 32px 28px}
+.modal-x{position:absolute;top:12px;right:12px;border:0;background:#fff;width:40px;height:40px;border-radius:50%;box-shadow:0 2px 10px rgba(0,0,0,.2);font-size:1.6rem;line-height:1;color:var(--marinho);cursor:pointer;z-index:2}
+.m-cat{font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--azul)}
+.m-pre{font-family:Quicksand,sans-serif;font-weight:600;color:var(--suave);margin-top:10px}
+.modal h3{font-size:1.8rem}
+.m-desc{color:var(--suave);margin:10px 0 20px;font-size:.95rem}
+.m-rot{font-weight:700;color:var(--marinho);margin:16px 0 8px;font-size:.95rem}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:0;background:var(--fundo-2);color:var(--texto);font:inherit;font-weight:500;padding:9px 18px;border-radius:999px;cursor:pointer}
+.chip.on{background:var(--marinho);color:#fff}
+.qtd{display:inline-flex;align-items:center;border:2px solid var(--marinho);border-radius:12px;overflow:hidden}
+.qtd button{border:0;background:none;width:46px;height:44px;font-size:1.4rem;color:var(--marinho);cursor:pointer}
+.qtd span{min-width:46px;text-align:center;font-weight:700}
+.m-enviar{margin-top:24px;width:100%;justify-content:center}
+.m-obs{font-size:.8rem;color:var(--suave);margin-top:10px;text-align:center}
+@media (max-width:700px){.modal-caixa{grid-template-columns:1fr}.modal-foto{border-radius:20px 20px 0 0;aspect-ratio:4/3}.modal-corpo{padding:24px 22px}}
+
+/* botão flutuante */
+.zap-flutua{position:fixed;right:20px;bottom:20px;z-index:60;width:60px;height:60px;border-radius:50%;background:var(--zap);display:grid;place-items:center;box-shadow:0 10px 26px -8px rgba(0,0,0,.45);transition:transform .15s}
+.zap-flutua:hover{transform:scale(1.07)}
+.zap-flutua svg{width:32px;height:32px;color:#fff}
+</style>
+</head>
+<body>
+
+<!-- Ícone do WhatsApp reutilizado -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-zap" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91A9.85 9.85 0 0 0 12.04 2Zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23a8.2 8.2 0 0 1 8.23 8.24c0 4.54-3.7 8.23-8.23 8.23Zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.16.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/></symbol>
+  <symbol id="i-check" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" d="M5 12.5l4.2 4.2L19 7"/></symbol>
+</svg>
+
+<header>
+  <div class="wrap nav">
+    <a href="#topo" class="marca" aria-label="Andaimes Mota, início">
+      <img src="img/logo-mota.png" alt="Andaimes Mota: locação de andaimes e equipamentos" width="191" height="46">
+    </a>
+    <nav class="menu" aria-label="Principal">
+      <a href="#equipamentos">Equipamentos</a>
+      <a href="#sobre">A empresa</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a class="btn btn-zap js-zap" href="#" data-msg="Olá! Gostaria de solicitar orçamento para locação de equipamentos da Andaimes Mota.">
+      <svg><use href="#i-zap"/></svg><span>Pedir orçamento</span>
+    </a>
+  </div>
+</header>
+
+<main id="topo">
+<section class="hero" style="padding:0">
+  <div class="wrap">
+    <div>
+      <p class="eyebrow">Locação de andaimes e equipamentos.</p>
+      <h1 style="margin-top:14px">Acelere sua obra<br><em>e economize.</em></h1>
+      <p class="lead">Andaimes, escoras, marteletes, betoneiras, compactadores e muito mais para obras de todos os tamanhos. Você pede pelo WhatsApp e a gente entrega na sua obra.</p>
+      <div class="acoes">
+        <a class="btn btn-zap js-zap" href="#" data-msg="Olá! Gostaria de solicitar orçamento para locação de equipamentos da Andaimes Mota.">
+          <svg><use href="#i-zap"/></svg>Orçamento pelo WhatsApp
+        </a>
+        <a class="btn btn-linha" href="#equipamentos">Ver equipamentos</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="faixa">
+  <div class="wrap">
+    <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 7h13v10H1zM14 10h4l4 4v3h-8z"/><circle cx="5.5" cy="18.5" r="2"/><circle cx="17.5" cy="18.5" r="2"/></svg>Entrega rápida na obra</div>
+    <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a9 9 0 1 1-3-6.7L21 8"/><path d="M21 3v5h-5"/></svg>Atendimento ágil</div>
+    <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2l8 4v6c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6z"/><path d="M8.5 12l2.5 2.5 4.5-5"/></svg>Equipamentos revisados</div>
+    <div><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="2"/><path d="M3 9h18M8 2v4M16 2v4"/></svg>Locação por dia, semana ou mês</div>
+  </div>
+</div>
+
+<section id="equipamentos">
+  <div class="wrap">
+    <div class="cab">
+      <p class="eyebrow">Equipamentos</p>
+      <h2>O que você precisa para tocar a obra</h2>
+      <p>Escolha a categoria, clique no equipamento e monte o pedido. A mensagem vai pronta para o nosso WhatsApp.</p>
+    </div>
+    <div class="cats" id="cats"></div>
+    <div class="grade" id="catalogo"></div>
+  </div>
+</section>
+
+<!-- Janela de pedido -->
+<div class="modal" id="modal" hidden>
+  <div class="modal-fundo" data-fechar></div>
+  <div class="modal-caixa" role="dialog" aria-modal="true" aria-labelledby="m-nome">
+    <button class="modal-x" data-fechar aria-label="Fechar">×</button>
+    <div class="modal-foto"><img id="m-foto" alt=""></div>
+    <div class="modal-corpo">
+      <p class="m-cat" id="m-cat"></p>
+      <p class="m-pre">Aluguel de</p>
+      <h3 id="m-nome"></h3>
+      <p class="m-desc" id="m-desc"></p>
+      <p class="m-rot">Período da locação</p>
+      <div class="chips" id="m-periodo">
+        <button class="chip on">Diária</button><button class="chip">Semanal</button><button class="chip">Quinzenal</button><button class="chip">Mensal</button>
+      </div>
+      <p class="m-rot">Quantidade</p>
+      <div class="qtd"><button id="m-menos" aria-label="Menos">−</button><span id="m-qtd">1</span><button id="m-mais" aria-label="Mais">+</button></div>
+      <a class="btn btn-zap m-enviar" id="m-enviar" target="_blank" rel="noopener"><svg><use href="#i-zap"/></svg>Pedir orçamento no WhatsApp</a>
+      <p class="m-obs">Valor e disponibilidade confirmados no atendimento.</p>
+    </div>
+  </div>
+</div>
+
+
+<section id="sobre" class="sobre">
+  <div class="wrap">
+    <!-- Trocar por foto real de obra ou do pátio -->
+    <div class="foto-grande"><img src="img/equip/plataforma.webp" alt="Plataformas metálicas no estoque" style="width:100%;height:100%;object-fit:cover"></div>
+    <div>
+      <p class="eyebrow">A empresa</p>
+      <h2 style="font-size:clamp(1.8rem,3.6vw,2.6rem);margin-top:6px">Desde 2008 acelerando obras em São Carlos</h2>
+      <p style="margin-top:16px;color:var(--suave)">Nossa empresa foi fundada em 2008 na cidade de São Carlos com a missão de acelerar cada obra da região, oferecendo os equipamentos ideais para cada problema da construção civil. Atendemos desde pequenas reformas até grandes empreendimentos, sempre com agilidade, bons preços e um atendimento de primeira.</p>
+      <ul>
+        <li><svg><use href="#i-check"/></svg>Frota própria de caminhões para entrega e retirada</li>
+        <li><svg><use href="#i-check"/></svg>Equipamentos conferidos antes de cada locação</li>
+        <li><svg><use href="#i-check"/></svg>Orçamento rápido, direto pelo WhatsApp</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="cta" id="contato">
+  <div class="wrap">
+    <h2>Está com dúvida de qual equipamento utilizar?</h2>
+    <p>Mande uma mensagem e fale com nossos especialistas. Faremos um orçamento personalizado para a sua necessidade.</p>
+    <a class="btn btn-zap js-zap" href="#" data-msg="Olá! Estou com dúvida sobre qual equipamento usar na minha obra. Podem me ajudar?" style="font-size:1.05rem;padding:16px 30px">
+      <svg><use href="#i-zap"/></svg>Falar com um especialista
+    </a>
+  </div>
+</section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="rod">
+      <div>
+        <div class="marca"><img src="img/logo-mota-branco.png" alt="Andaimes Mota" width="216" height="52"></div>
+        <p style="margin-top:14px;max-width:340px">Locação de andaimes e equipamentos para construção civil.</p>
+      </div>
+      <div>
+        <h4>Contato</h4>
+        <ul>
+          <li><a class="js-zap" href="#" data-msg="Olá! Gostaria de solicitar orçamento para locação de equipamentos da Andaimes Mota.">WhatsApp: (16) 97401-4479</a></li>
+          <li><a href="https://www.instagram.com/andaimesmota/" target="_blank" rel="noopener">Instagram: @andaimesmota</a></li>
+          <li><a href="mailto:contato@andaimesmota.com">contato@andaimesmota.com</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Endereço</h4>
+        <ul>
+          <li>Rua Gabriel Crknovic, 30 - Vila Carmen</li>
+          <li>São Carlos - SP</li>
+          <li>Atendimento das 08:00 às 18:00</li>
+        </ul>
+      </div>
+    </div>
+    <div class="copy">
+      <span>© <span id="ano">2026</span> Andaimes Mota · CNPJ 10.501.514/0001-84</span>
+      <span>andaimesmota.com</span>
+    </div>
+  </div>
+</footer>
+
+<a class="zap-flutua js-zap" href="#" data-msg="Olá! Gostaria de solicitar orçamento para locação de equipamentos da Andaimes Mota." aria-label="Falar no WhatsApp">
+  <svg><use href="#i-zap"/></svg>
+</a>
+
+<script>
+  // Número único do WhatsApp: trocar só aqui
+  var ZAP = "5516974014479";
+  document.querySelectorAll(".js-zap").forEach(function (a) {
+    a.href = "https://wa.me/" + ZAP + "?text=" + encodeURIComponent(a.dataset.msg || "");
+    a.target = "_blank"; a.rel = "noopener";
+  });
+  document.getElementById("ano").textContent = new Date().getFullYear();
+  // Catálogo: para adicionar um equipamento, copie uma linha
+  var CATS = [
+    {id:"andaimes", nome:"Andaimes", sub:"e acessórios", cor:"#2F3285", img:"andaime"},
+    {id:"escoramento", nome:"Escoramento", sub:"laje e viga", cor:"#176FC0", img:"escoras"},
+    {id:"demolicao", nome:"Demolição", sub:"marteletes", cor:"#22246A", img:"martelo-30"},
+    {id:"concreto", nome:"Concretagem", sub:"betoneira e vibrador", cor:"#0089C2", img:"betoneira"},
+    {id:"compactacao", nome:"Compactação", sub:"solo e piso", cor:"#3B3E9E", img:"compactador"},
+    {id:"corte", nome:"Corte", sub:"piso e madeira", cor:"#135A9C", img:"cortadora-piso"}
+  ];
+  var EQ = [
+    ["andaime","andaimes","Andaime tubular","Painéis de 1,0 m e 1,5 m. Para fachada, reboco, pintura e estrutura, com montagem rápida e segura."],
+    ["rodizio","andaimes","Rodízio para andaime","Rodas com trava para transformar o andaime em torre móvel."],
+    ["plataforma","andaimes","Plataforma metálica","Piso metálico antiderrapante para trabalhar sobre o andaime."],
+    ["guarda-corpo","andaimes","Guarda-corpo","Proteção no topo do andaime para trabalho em altura com segurança."],
+    ["sapata","andaimes","Sapata ajustável","Base com rosca para nivelar o andaime em terreno irregular."],
+    ["escoras","escoramento","Escora metálica","Escoras reguláveis para laje, viga e forma."],
+    ["martelo-11","demolicao","Martelete 11 kg","Rompedor para parede, reboco e pequenas demolições."],
+    ["martelo-16","demolicao","Martelo rompedor 16 kg","Para quebrar piso, contrapiso e concreto."],
+    ["martelo-30","demolicao","Martelo rompedor 30 kg","Para demolição pesada de concreto e asfalto."],
+    ["betoneira","concreto","Betoneira","Mistura de concreto e argamassa na própria obra."],
+    ["vibrador","concreto","Vibrador de concreto","Adensa o concreto e evita bolhas em laje, viga e pilar."],
+    ["compactador","compactacao","Compactador de solo (sapo)","Compacta solo em valas, bases e aterros."],
+    ["placa-vibratoria","compactacao","Placa vibratória","Compacta brita, areia e base de piso intertravado."],
+    ["cortadora-piso","corte","Cortadora de piso","Corte de concreto e asfalto para juntas e passagem de tubos."],
+    ["serra-bancada","corte","Serra de bancada","Corte de madeira para forma e caixaria."]
+  ];
+  var catNome = {}; CATS.forEach(function(c){catNome[c.id]=c.nome;});
+  var elCats = document.getElementById("cats"), elCat = document.getElementById("catalogo");
+  function botaoCat(id,nome,sub,cor,img){
+    var b=document.createElement("button");b.className="cat";b.style.setProperty("--c",cor);b.dataset.cat=id;b.setAttribute("aria-pressed","false");
+    b.innerHTML=(img?'<img src="img/equip/'+img+'.webp" alt="" loading="lazy">':'')+'<span>'+nome+'<small>'+sub+'</small></span>';
+    elCats.appendChild(b);
+  }
+  botaoCat("todos","Todos",EQ.length+" itens","#5A5758","");
+  CATS.forEach(function(c){botaoCat(c.id,c.nome,c.sub,c.cor,c.img);});
+  EQ.forEach(function(e,i){
+    var b=document.createElement("button");b.className="card";b.dataset.cat=e[1];b.dataset.i=i;
+    b.innerHTML='<div class="foto"><img src="img/equip/'+e[0]+'.webp" alt="'+e[2]+'" loading="lazy" width="800" height="600"></div><div class="corpo"><span class="tag">'+catNome[e[1]]+'</span><p class="pre">Aluguel de</p><h3>'+e[2]+'</h3><p>'+e[3]+'</p><span class="ver">Montar pedido →</span></div>';
+    elCat.appendChild(b);
+  });
+  function filtrar(id){
+    elCats.querySelectorAll(".cat").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.cat===id?"true":"false");});
+    elCat.querySelectorAll(".card").forEach(function(c){c.hidden=!(id==="todos"||c.dataset.cat===id);});
+  }
+  elCats.addEventListener("click",function(ev){var b=ev.target.closest(".cat");if(b)filtrar(b.dataset.cat);});
+  filtrar("todos");
+
+  // Janela de pedido
+  var modal=document.getElementById("modal"), atual=null, qtd=1, periodo="Diária";
+  function link(){
+    var msg="Olá! Gostaria de um orçamento de locação:\n\n• Equipamento: "+atual[2]+"\n• Quantidade: "+qtd+"\n• Período: "+periodo+"\n\nEndereço da obra: ";
+    document.getElementById("m-enviar").href="https://wa.me/"+ZAP+"?text="+encodeURIComponent(msg);
+  }
+  function abrir(i){
+    atual=EQ[i];qtd=1;periodo="Diária";
+    document.getElementById("m-foto").src="img/equip/"+atual[0]+".webp";
+    document.getElementById("m-foto").alt=atual[2];
+    document.getElementById("m-cat").textContent=catNome[atual[1]];
+    document.getElementById("m-nome").textContent=atual[2];
+    document.getElementById("m-desc").textContent=atual[3];
+    document.getElementById("m-qtd").textContent=qtd;
+    document.querySelectorAll("#m-periodo .chip").forEach(function(c,j){c.classList.toggle("on",j===0);});
+    link();modal.hidden=false;document.body.style.overflow="hidden";
+  }
+  function fechar(){modal.hidden=true;document.body.style.overflow="";}
+  elCat.addEventListener("click",function(ev){var c=ev.target.closest(".card");if(c)abrir(+c.dataset.i);});
+  modal.addEventListener("click",function(ev){if(ev.target.closest("[data-fechar]"))fechar();});
+  document.addEventListener("keydown",function(ev){if(ev.key==="Escape"&&!modal.hidden)fechar();});
+  document.getElementById("m-periodo").addEventListener("click",function(ev){var c=ev.target.closest(".chip");if(!c)return;
+    this.querySelectorAll(".chip").forEach(function(x){x.classList.remove("on");});c.classList.add("on");periodo=c.textContent;link();});
+  document.getElementById("m-menos").onclick=function(){if(qtd>1){qtd--;document.getElementById("m-qtd").textContent=qtd;link();}};
+  document.getElementById("m-mais").onclick=function(){qtd++;document.getElementById("m-qtd").textContent=qtd;link();};
+
+</script>
+</body>
+</html>
